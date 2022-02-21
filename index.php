@@ -1,15 +1,12 @@
 
 <?php include 'src/incloudes.php'; ?>
 <body>
-  <header>
+  <header >
       <?php include 'src/navbar.php'; ?>
   </header>
-  <main>
-    <section>
+  <main class="container" >
+    <section >
       <?php include 'src/main/tabel.php'; ?>
-    </section>
-    <section>
-      <?php include 'src/main/form.php'; ?>
     </section>
   </main>
   <footer>

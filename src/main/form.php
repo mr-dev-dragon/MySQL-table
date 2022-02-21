@@ -1,63 +1,113 @@
+       <?php include '../../process.php'; ?>
+      <?php include '../incloudes.php'; ?>
 
-        <FORM action="process.php" method="post">
+      <body>
+        <header >
+            <?php include '../navbar.php'; ?>
+        </header>
+        <div style='height:10vh;'></div>
+        <main class="d-grid gap-2 col-4 mx-auto" >
+        <FORM  action="process.php" method="post">
           <input type="hidden" name="id" value="<?php echo $id; ?>">
 
-          <div class="form-group">
-          <label for="1a"> first name</label>
-          <input type="text" name="first-name"  id="1a" class="form-control" placeholder="Enter your  first name here" 
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="bi bi-person-circle"></i>
+            </span>
+          <input type="text" name="first-name"  id="1a" class="form-control" placeholder="Enter first name " 
           value="<?php echo $first_name; ?>" >
-          </div>
-
-          <div class="form-group">
-          <label for="2a">last name</label>
+      
+            <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
+           </div>
+          <div class="input-group">
+           <span class="input-group-text">
+              <i class="bi bi-file-earmark-person-fill"></i>
+            </span>
           <input type="text" name="last-name"  id="2a" class="form-control" placeholder="enter your last name here" 
           value="<?php echo $last_name; ?>"  >
+            <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
           </div>
           
           
 
           
-          <div class="form-group">
-          <label for="3a">date of birth</label>
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="bi bi-calendar-date-fill"></i>
+            </span>
           <input type="date" name="date-of-birth" id="3a"  class="form-control" placeholder="enter your birth date" 
           value="<?php echo $date_of_birth; ?>"  >
+          <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
           </div>
           
 
-          <div class="form-group">
-          <label for="4a">department</label>
+          <div class="input-group">
+          <span class="input-group-text">
+              <i class="bi bi-card-checklist"></i>
+            </span>
           <input type="text" name="department"  id="4a" class="form-control" placeholder="enter your department" 
           value="<?php echo $department; ?>"  >
+          <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
           </div>
           
 
-          <div class="form-group">
-          <label for="5a">salary</label>
+          <div class="input-group">
+          <span class="input-group-text">
+              <i class="bi bi-cash-coin"></i>
+            </span>
           <input type="number" name="salary"  id="5a"class="form-control" placeholder="Enter your salary"  
           value="<?php echo $salary; ?>"  >
+          <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
           </div>
           
 
-          <div class="form-group">
-          <label for="6a">function</label>
-          <input type="text" name="function"  id="6a" class="form-control" placeholder="Enter your function " 
+          <div class="input-group">
+          <span class="input-group-text">
+              <i class="bi bi-stars"></i>
+            </span>
+          <input style="width: 10px;" type="text" name="function"  id="6a" class="form-control" placeholder="Enter your function " 
           value="<?php echo $f_unction; ?>"  >
+          <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
           </div>
           
 
-          <div class="form-group">
-          <label for="7a">photo</label>
-          <input type="url"  name="photo"  id="7a" class="form-control" placeholder="chose your photo" 
+          <div class="input-group">
+          <span class="input-group-text">
+              <i class="bi bi-image"></i>
+          </span>
+          <input type="url"  name="photo"  id="7a" class="form-control" placeholder=" your photo URL" 
           value="<?php echo $photo; ?>"  >
+          <span class="input-group-text">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </span>
           </div>
 
           
-          <div class="form-group">
+          <div class="mb-5 mt-4 text-center">
            <?php if ($update == true): ?>
-          <button type="submit" id="" class="btn btn-info" name="update"  >update</button>
+          <button style="width:200px" type="submit" id="" class="btn btn-info" name="update"  >update</button>
           <?php else: ?>
-          <button type="submit"  id="" class="btn btn-primary" name="save" >save</button>
-          <?php endif; ?>
+          <button style="width:200px" type="submit"  id="" class="btn btn-secondary" name="save" >save</button>
+          <?php endif ; ?>
           </div>
 
         </FORM>
+        </main>
+                <div style='height:10vh;'></div>
+        <footer class='fixed-bottom'>
+          <?php include '../footer.php'; ?>
+        </footer>
+      </body>
+      </html>

@@ -1,9 +1,6 @@
 
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <div class="container-fluid">
+  <div class="container">
     
       <div class="container">
         <a class="navbar-brand" href="javascript:void(0)">
@@ -15,7 +12,6 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
-
 
 
       <form class="d-flex">

@@ -49,3 +49,6 @@
             <?php endwhile?>
           </tbody>
         </table>
+          <div class="d-grid gap-2 col-4 mx-auto mt-4 mb-5">
+            <a class="btn btn-primary" href='src/main/form.php'>add new row</a>
+          </div>
