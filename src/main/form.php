@@ -1,12 +1,4 @@
-       <?php include '../../process.php'; ?>
-      <?php include '../incloudes.php'; ?>
 
-      <body>
-        <header >
-            <?php include '../navbar.php'; ?>
-        </header>
-        <div style='height:10vh;'></div>
-        <main class="d-grid gap-2 col-4 mx-auto" >
         <FORM  action="process.php" method="post">
           <input type="hidden" name="id" value="<?php echo $id; ?>">
 
@@ -104,10 +96,4 @@
           </div>
 
         </FORM>
-        </main>
-                <div style='height:10vh;'></div>
-        <footer class='fixed-bottom'>
-          <?php include '../footer.php'; ?>
-        </footer>
-      </body>
-      </html>
+   

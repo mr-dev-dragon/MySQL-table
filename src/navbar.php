@@ -16,7 +16,7 @@
 
       <form class="d-flex">
         <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
+        <button class="btn btn-info" type="button">Search</button>
       </form>
     </div>
   </div>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+$addbtn = true;
 $mysqli = new mysqli('localhost', 'root', 'mypass123', 'ahmed') or die(mysqli_error($mysqli));
 $id = 0;
 if (isset($_POST['save'])){
@@ -15,7 +15,11 @@ if (isset($_POST['save'])){
   $mysqli->query("INSERT INTO `employees` ( `first_name`, `last_name`, `date_of_birth`, `department`, `salary`, `function`, `photo`) VALUES ('$first_name', '$last_name', '$date_of_birth', '$department', '$salary', '$f_unction', '$photo');") or die($mysqli->error());
   $_SESSION['message'] =  "Record has been saved!";
   $_SESSION['msg_type'] = 'success';
+  $addbtn = true;
   header("location:index.php");
+}
+else{
+   $addbtn = false;
 }
 
 
@@ -41,6 +45,8 @@ if (isset($_POST['save'])){
        $f_unction = $row['function'];
        $photo = $row['photo'];
      $update = true;
+        $addbtn = false;
+
 
  }
  else{
@@ -53,6 +59,8 @@ if (isset($_POST['save'])){
   $f_unction = '';
   $photo = '';
   $update = false;
+     $addbtn = true;
+
  }
 
  if (isset($_POST['update'])){
@@ -67,9 +75,17 @@ if (isset($_POST['save'])){
     $mysqli->query("UPDATE employees SET first_name='$first_name', last_name='$last_name', date_of_birth='$date_of_birth', department='$department', salary='$salary', function='$f_unction' , photo='$photo'  WHERE id='$id'")or die($mysqli->error()); 
     $_SESSION['message'] = "the update was successful";
     $_SESSION['msg_type'] = 'warning';
+    $addbtn = true   ;
+
     header("Location:index.php");
 
  }
+ if (isset($_POST['addbtn'])){
+
+ $addbtn = false ;  
+
+ }
+
 
 
 
