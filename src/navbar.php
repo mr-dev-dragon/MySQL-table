@@ -4,7 +4,7 @@
     
       <div class="container">
         <a class="navbar-brand" href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/code-brief/img/main/20200610_212959.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          <img src="https://raw.githubusercontent.com/code-brief/img/main/20200610_212959.jpg" alt="Avatar Logo" style="width:40px; height:40px;" class="rounded-pill"> 
         </a>
       </div>
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 21, 2022 at 11:18 AM
+-- Generation Time: Feb 21, 2022 at 11:31 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -20,6 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `ahmed`
 --
+
 -- --------------------------------------------------------
 
 --
@@ -42,9 +43,8 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `first_name`, `last_name`, `date_of_birth`, `department`, `salary`, `function`, `photo`) VALUES
-(35, '', '', '0000-00-00', '', '0', '', ''),
-(50, '', '', '0000-00-00', '', '0', '', ''),
-(51, '', '', '0000-00-00', '', '0', '', '');
+(52, 'trump', 'dounl', '2022-02-10', 'president t', '100000', 'P', 'https://www.theglobeandmail.com/resizer/hNVMjr8hDGdPi6smvp-zWJbX4mI=/1200x0/filters:quality(80):format(webp)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/5HSZVXDII5BRRHH4S6KE4WZ7RE.jpg'),
+(53, 'AHMED', 'AOULAD', '2022-02-05', 'WE', '1300', 'Wwb dev', 'https://raw.githubusercontent.com/code-brief/img/main/20200610_212959.jpg');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +64,7 @@ ALTER TABLE `employees`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
