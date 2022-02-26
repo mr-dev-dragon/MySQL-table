@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav style="margin-top:-28px" class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container">
     
       <div class="container">
@@ -14,9 +14,9 @@
     <div class="collapse navbar-collapse" id="mynavbar">
 
 
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-info" type="button">Search</button>
+      <form class="d-flex" action="tabel.php" method="post">
+        <input class="form-control me-2" name='text' type="text" placeholder="Search">
+        <button class="btn btn-info" name="search" id="search" type="button">Search</button>
       </form>
     </div>
   </div>

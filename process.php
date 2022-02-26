@@ -1,8 +1,9 @@
 <?php
 session_start();
 $addbtn = true;
-$mysqli = new mysqli('localhost', 'root', '', 'ahmed') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('localhost', 'root', 'mypass123', 'ahmed') or die(mysqli_error($mysqli));
 $id = 0;
+
 if (isset($_POST['save'])){
   $id = $_POST['id'];
   $first_name = $_POST['first-name'];
@@ -21,6 +22,10 @@ if (isset($_POST['save'])){
 else{
    $addbtn = false;
 }
+
+
+
+
 
 
  if(isset($_GET['delete'])){
