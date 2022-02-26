@@ -1,7 +1,7 @@
 <?php
 session_start();
 $addbtn = true;
-$mysqli = new mysqli('localhost', 'root', 'mypass123', 'ahmed') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('localhost', 'root', '', 'ahmed') or die(mysqli_error($mysqli));
 $id = 0;
 
 if (isset($_POST['save'])){

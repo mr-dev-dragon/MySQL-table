@@ -10,7 +10,7 @@
                 </div>
                 <?php endif  ?>
         <?php 
-       $mysqli = new mysqli('localhost', 'root', 'mypass123','ahmed') or die(mysqli_error($mysqli)); 
+       $mysqli = new mysqli('localhost', 'root', '','ahmed') or die(mysqli_error($mysqli)); 
        $result = $mysqli->query("SELECT * FROM employees") or die(mysqli->error);
 
 

@@ -24,5 +24,6 @@
   <footer>
     <?php include 'src/footer.php'; ?>
   </footer>
+
 </body>
 </html>
