@@ -60,7 +60,7 @@
 	}
 </style>
 <div style="z-index: 1000;">
-<a  href="https://github.com/Ahmed-Aoulad-Amar/brif-databese" class="github-corner" aria-label=" GitHub" tabindex="-1"><svg width="80"
+<a  href="https://github.com/Ahmed-Aoulad-Amar/MySQL-table" class="github-corner" aria-label=" GitHub" tabindex="-1"><svg width="80"
 		height="80" viewBox="0 0 250 250"
 		style=" position: absolute; top: 0; right: 0; border: 0; fill: #151513; color: #fff;">
 		<path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
