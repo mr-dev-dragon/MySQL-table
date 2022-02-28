@@ -3,7 +3,7 @@
  come back  [clike here](http://localhost/MySQL-table-main/index.php) and you r ready to go!
 
 ❌
- if the page looe like  this  that means that you have to 
+ if the page look like  this  that means that you have to 
  <br>
  [![img](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/blob/main/img/screencapture-localhost-MySQL-table-main-index-php-2022-02-28-15_46_07.png)](http://localhost/MySQL-table-main/index.php)
 <br>
