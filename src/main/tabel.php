@@ -10,23 +10,11 @@
                 </div>
                 <?php endif  ?>
         <?php 
-       $mysqli = new mysqli('localhost', 'root', '','ahmed') or die(mysqli_error($mysqli)); 
-       $result = $mysqli->query("SELECT * FROM employees") or die(mysqli->error);
+       $mysqli = new mysqli('localhost', 'root', '','ahmed') ;
+       $result = $mysqli->query(" SELECT * FROM  `employees` ") ;
 
+ ?>
 
-
-      if (isset($_POST['search'])){
-        $inval = $_POST['text'];
-
-       $result = $mysqli->query("SELECT * FROM `employees` WHERE first_name like '$inval';") or die(mysqli->error);
-        $_SESSION['message'] =  " i am searching for your input";
-        $_SESSION['msg_type'] = 'success';
-
-        header("location:index.php");
-      }
-    
-
-       ?>
        <table class="table table-striped table-hover">
           <thead>
               <tr>
