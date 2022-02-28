@@ -1,10 +1,10 @@
 #  If you r ready go [online](http://localhost/MySQL-table-main/index.php)
-🚫you have to [download](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/archive/refs/heads/main.zip) this project and put it  inside the  htdocs file in the php (MAMP)... server and 
+🚫you have to [download](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/archive/refs/heads/main.zip) this project, put it  inside the  htdocs file in the php (MAMP)... server and 
  come back  [clike here](http://localhost/MySQL-table-main/index.php) and you r ready to go!
 
-❌
- if the page look like  this  that means that you have to 
- <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌
+  &nbsp;if the page look like  this  that means that you have to &nbsp;❌
+ <br> <br> <br> 
  [![img](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/blob/main/img/screencapture-localhost-MySQL-table-main-index-php-2022-02-28-15_46_07.png)](http://localhost/MySQL-table-main/index.php)
 <br>
 <br>
