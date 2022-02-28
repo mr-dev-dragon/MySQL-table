@@ -20,12 +20,11 @@
 <br>
 <br>
 <br>
+# and there you go ✅ the page will look like this
  [![img](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/blob/main/img/1.png)](http://localhost/MySQL-table-main/index.php)
+
 ✅
- the page will look like 
- [![img](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/blob/main/img/1.png)](http://localhost/MySQL-table-main/index.php)
-✅
-  if you add a new row the form will pop-up
+if you add a new row the form will pop-up
   [![img](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/blob/main/img/2.png)](http://localhost/MySQL-table-main/index.php)
 ✅
   if you try to delete a row a woring mesage will pop-up to make sur that you weant to delete it!
