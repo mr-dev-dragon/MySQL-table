@@ -20,7 +20,8 @@
 <br>
 <br>
 <br>
-# and there you go ✅ the page will look like this
+# 
+and there you go ✅ the page will look like this
  [![img](https://github.com/Ahmed-Aoulad-Amar/MySQL-table/blob/main/img/1.png)](http://localhost/MySQL-table-main/index.php)
 
 ✅
