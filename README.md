@@ -3,5 +3,6 @@
  come back  [clike here](http://localhost/MySQL-table-main/index.php) and you r ready to go!
 
 ✅
-
+ the page will look like 
+ [![img](img.1.png)]()
 
