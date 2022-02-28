@@ -86,7 +86,7 @@
             </span>
           </div>
           <div class="mb-5 mt-4 text-center">
-           <?php if ($update == true): ?>
+           
             <script>
               function pro(){
                 let timerInterval
@@ -113,6 +113,10 @@
                   })
               }
             </script>
+
+
+      <?php if ($update == true): ?>
+        
           <button onclick="pro();" style="width:200px" type="submit" id="" class="btn btn-info" name="update"  >update</button>
           <?php else: ?>
           <button onclick="pro();" style="width:200px" type="submit"  id="" class="btn btn-secondary" name="save" >save</button>
