@@ -9,7 +9,7 @@
 <br>
 <br>
  # 1 
- make sure that the databese doesn't have  a password
+ make sure that your php server or  the databese doesn't have  a password
  # 2
  creat a databese with name ahmed 
  # 3
